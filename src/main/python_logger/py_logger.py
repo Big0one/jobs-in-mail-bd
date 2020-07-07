@@ -2,7 +2,6 @@ import logging
 
 
 class PyLogger:
-
     @staticmethod
     def get_logger():
         msg_fmt = "[%(asctime)s ] %(levelname)s @ line %(lineno)d: %(message)s"
@@ -10,6 +9,6 @@ class PyLogger:
         return logging.getLogger(__name__)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     logger = PyLogger.get_logger()
     logger.info("info")
