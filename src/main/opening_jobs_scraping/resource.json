@@ -127,7 +127,7 @@
       }
     },
     {
-      "companyName": "",
+      "companyName": "Insight In Technology",
       "url": "http://insightintechnology.com/career/",
       "jobs_list": {
         "tag": "div",
@@ -135,8 +135,8 @@
         "id": ""
       },
       "job_info": {
-        "tag": "",
-        "class": "",
+        "tag": "div",
+        "class": "career-content career-social-hide",
         "id": ""
       }
     }
