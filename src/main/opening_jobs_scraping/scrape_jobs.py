@@ -1,5 +1,9 @@
 import json
 from src.main.web_scraping.scraper import *
+from src.main.python_logger.py_logger import *
+
+
+logger = PyLogger.get_logger()
 
 
 def scrap_companies():
@@ -24,7 +28,7 @@ def scrap_companies():
                     link = url + path
                 item = content.get_text().strip().split('\n')
                 item = [itm.strip() for itm in item if len(itm) > 0]
-                print("Job Info: {}\nJob Link: {}\n".format(item, link))
+                logger.info("Job Info: {} \nJob Link: {}\n".format(item, link))
         except:
             pass
 
@@ -33,4 +37,4 @@ if __name__ == '__main__':
     import time
     start_time = time.time()
     scrap_companies()
-    print("Time spent: {} seconds".format(time.time()-start_time))
+    logger.info("Time spent: {} seconds".format(time.time()-start_time))
