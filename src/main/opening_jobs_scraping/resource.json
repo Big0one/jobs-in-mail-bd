@@ -1,0 +1,144 @@
+{
+  "companies": [
+    {
+      "companyName": "Therap",
+      "url": "https://therap.recruiterbox.com/",
+      "jobs_list": {
+        "tag": "div",
+        "class": "js-card list-item list-item-clickable js-careers-page-job-list-item",
+        "id": ""
+      },
+      "job_info": {
+        "tag": "div",
+        "class": "jobdesciption",
+        "id": ""
+      }
+    },
+    {
+      "companyName": "Cefalo",
+      "url": "https://www.cefalo.com/career/",
+      "jobs_list": {
+        "tag": "div",
+        "class": "custom-column-wrap-inner",
+        "id": ""
+      },
+      "job_info": {
+        "tag": "div",
+        "class": "hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_custom_widget",
+        "id": "hs_cos_wrapper_widget_6377555919"
+      }
+    },
+    {
+      "companyName": "Selise",
+      "url": "https://selise.ch/career/",
+      "jobs_list": {
+        "tag": "div",
+        "class": "job-posts-attributes",
+        "id": ""
+      },
+      "job_info": {
+        "tag": "div",
+        "class": "job-description",
+        "id": ""
+      }
+    },
+    {
+      "companyName": "NewsCred",
+      "url": "https://newscred.com/careers/",
+      "jobs_list": {
+        "tag": "",
+        "class": "",
+        "id": ""
+      },
+      "job_info": {
+        "tag": "",
+        "class": "",
+        "id": ""
+      }
+    },
+    {
+      "companyName": "Data Soft",
+      "url": "http://datasoft-bd.com/career/",
+      "jobs_list": {
+        "tag": "",
+        "class": "",
+        "id": ""
+      },
+      "job_info": {
+        "tag": "",
+        "class": "",
+        "id": ""
+      }
+    },
+    {
+      "companyName": "Brain Station 23",
+      "url": "https://career.brainstation-23.com/",
+      "jobs_list": {
+        "tag": "",
+        "class": "",
+        "id": ""
+      },
+      "job_info": {
+        "tag": "",
+        "class": "",
+        "id": ""
+      }
+    },
+    {
+      "companyName": "Southtech Limited",
+      "url": "https://career.southtechgroup.com/",
+      "jobs_list": {
+        "tag": "",
+        "class": "",
+        "id": ""
+      },
+      "job_info": {
+        "tag": "",
+        "class": "",
+        "id": ""
+      }
+    },
+    {
+      "companyName": "Magnito Digital",
+      "url": "http://magnitodigital.com/career/",
+      "jobs_list": {
+        "tag": "",
+        "class": "",
+        "id": ""
+      },
+      "job_info": {
+        "tag": "",
+        "class": "",
+        "id": ""
+      }
+    },
+    {
+      "companyName": "BJIT Group",
+      "url": "https://bjitgroup.com/career/",
+      "jobs_list": {
+        "tag": "",
+        "class": "",
+        "id": ""
+      },
+      "job_info": {
+        "tag": "",
+        "class": "",
+        "id": ""
+      }
+    },
+    {
+      "companyName": "",
+      "url": "http://insightintechnology.com/career/",
+      "jobs_list": {
+        "tag": "div",
+        "class": "col-sm-4",
+        "id": ""
+      },
+      "job_info": {
+        "tag": "",
+        "class": "",
+        "id": ""
+      }
+    }
+  ]
+}
