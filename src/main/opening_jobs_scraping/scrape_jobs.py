@@ -24,6 +24,7 @@ def scrap_companies():
                     link = url + path
                 item = content.get_text().strip().split('\n')
                 item = [itm.strip() for itm in item if len(itm) > 0]
+                print("Job Info: {}\nJob Link: {}\n".format(item, link))
         except:
             pass
 

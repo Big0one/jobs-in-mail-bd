@@ -125,6 +125,20 @@
         "class": "",
         "id": ""
       }
+    },
+    {
+      "companyName": "",
+      "url": "http://insightintechnology.com/career/",
+      "jobs_list": {
+        "tag": "div",
+        "class": "col-sm-4",
+        "id": ""
+      },
+      "job_info": {
+        "tag": "",
+        "class": "",
+        "id": ""
+      }
     }
   ]
 }
