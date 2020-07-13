@@ -139,6 +139,34 @@
         "class": "career-content career-social-hide",
         "id": ""
       }
+    },
+    {
+      "companyName": "Kona Software Lab",
+      "url": "https://konasl.com/life-at-konasl/career-journey/",
+      "jobs_list": {
+        "tag": "div",
+        "class": "wpb_column vc_column_container vc_col-sm-12",
+        "id": ""
+      },
+      "job_info": {
+        "tag": "",
+        "class": "",
+        "id": ""
+      }
+    },
+    {
+      "companyName": "LEADS Corporation",
+      "url": "https://www.leads.com.bd/current-vacancies/",
+      "jobs_list": {
+        "tag": "div",
+        "class": "elementor-widget-container",
+        "id": ""
+      },
+      "job_info": {
+        "tag": "",
+        "class": "",
+        "id": ""
+      }
     }
   ]
 }
