@@ -22,14 +22,17 @@ def scrap_companies():
             jobs = jobs.find_all(tag["tag"], {"class": tag["class"], "id": tag["id"]})
             for job in jobs:
                 content = scrape_content(str(job))
-                path = content.find("a").get("href")
-                link = get_valid_link(path)
-                if not link:
-                    link = url + path
-                item = content.get_text().strip().split("\n")
-                item = [itm.strip() for itm in item if len(itm) > 0]
-                logger.info("Job Info: {} \nJob Link: {}\n".format(item, link))
-        except:
+                path = content.find("a")
+                if path is not None:
+                    path = path.get("href")
+                    link = get_valid_link(path)
+                    if not link:
+                        link = url + path
+                    item = content.get_text().strip().split("\n")
+                    item = [itm.strip() for itm in item if len(itm) > 0]
+                    logger.info("Job Info: {} \nJob Link: {}\n".format(item, link))
+        except Exception as e:
+            logger.info("{}".format(e))
             pass
 
 
